@@ -1,0 +1,36 @@
+.container {
+    padding: 0 0 1em 0;
+    margin-top: .5em;
+    width: 282px;
+    background-color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.capa {
+    width: 100%;
+}
+
+.container h2,
+.favoritar {
+    padding: .25em 1em;
+}
+
+.container {
+    text-align: center;
+}
+
+.favoritar {
+    width: 50px;
+}
+
+.favoritar:hover {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--preto);
+}
